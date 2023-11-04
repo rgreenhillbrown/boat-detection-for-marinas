@@ -1,0 +1,20 @@
+# Train/val/tests sets as 1) dir:path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ...]
+path: 'C:\Users\Remy\Documents\boats\data' # dataset root directory, change to yours if wish to re-train. 
+# Add training images to the following directories. Images are not included in this repository. 
+train: images/train # train images (relative to 'path')
+val: images/train # val images (relative to 'path')
+
+# Classes
+names:
+ 0: Small Craft
+ 1: Small Fishing Boat
+ 2: Small Passenger Ship
+ 3: Fishing Trawler
+ 4: Large Passenger Ship
+ 5: Sailing Boat
+ 6: Speed Craft
+ 7: Motorboat
+ 8: Pleasure Yacht
+ 9: Medium Ferry
+ 10: Large Ferry
+ 11: High Speed Craft
