@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ### Training the Model
 - **train.py**: Train the YOLO model using a custom dataset.
-  - Ensure you have a dataset containing boats and correctly set-up configuration files (`yolov8n.yaml` and `local.yaml`).
+  - Ensure you have a dataset containing boats and correctly set-up configuration files (`local.yaml`).
   - Run the script:
     ```
     python train.py
