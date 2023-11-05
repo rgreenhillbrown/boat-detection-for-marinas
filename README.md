@@ -16,7 +16,7 @@ This project aims to develop a robust solution for detecting and counting boats 
 ### Dependencies
 To install the required dependencies, run the following command:
 ```
-pip install ultralytics opencv-python yt-dlp
+pip install -r requirements.txt
 ```
 
 ## Usage
