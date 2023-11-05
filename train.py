@@ -8,4 +8,4 @@ if __name__ == '__main__':
     model = YOLO("yolov8n.yaml") # model from scratch
 
     # Use model
-    results = model.train(data="boatslocal.yaml", epochs=100, patience=75) # train model
+    results = model.train(data="local.yaml", epochs=100, patience=75) # train model
