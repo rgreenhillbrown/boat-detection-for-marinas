@@ -11,7 +11,7 @@ model = YOLO('pre-trained.pt')
 
 # load video
 
-video_path = 'C:/Users/Remy/Documents/boats/videos/boats.mp4'
+video_path = 'path\to\your\video'
 cap = cv2.VideoCapture(video_path)
 
 ret = True
